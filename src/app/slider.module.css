@@ -1,0 +1,34 @@
+/* Slider.module.css */
+.slider-container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .slider {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .slide {
+    text-align: center;
+  }
+  
+  .slider-controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .control-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  
+  .control-button:focus {
+    outline: none;
+  }
+  

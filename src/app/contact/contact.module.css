@@ -1,0 +1,78 @@
+.container{
+    @apply pt-28 pb-10 flex justify-evenly items-center h-[79vh];
+}
+.formInput{
+    @apply  mb-6 w-full rounded p-2 text-black;
+}
+.inputWrapper{
+    @apply flex flex-col w-[40%];
+}
+.contactDescription{
+    @apply w-[30%] mb-[7%];
+}
+.description{
+    @apply pt-4 leading-7;
+}
+.submitButton{
+    @apply bg-slate-500 text-white p-2 rounded w-[40%] text-xl font-bold  transition-all;
+}
+.aboutAddressheading{
+    @apply pt-4 leading-7 text-3xl font-serif;
+}
+@media(max-width:1024px){
+    .container{
+        @apply flex flex-col  h-[79vh];
+    }
+    .inputWrapper{
+        @apply w-[70%];
+    }
+    .contactDescription{
+        @apply w-[65%] mt-8;
+    }
+    .submitButton{
+        @apply w-[100%];
+    }
+}
+@media(max-width:820px) {
+    .container{
+        @apply flex flex-col  h-[79vh];
+    }
+    .inputWrapper{
+        @apply w-[70%];
+    }
+    .contactDescription{
+        @apply w-[65%] mt-8;
+    }
+    .submitButton{
+        @apply w-[100%];
+    }
+}
+
+@media(max-width:768px) {
+    .container{
+        @apply flex flex-col;
+    }
+    .inputWrapper{
+        @apply w-[70%];
+    }
+    .contactDescription{
+        @apply w-[65%] mt-8;
+    }
+    .submitButton{
+        @apply w-[100%];
+    }
+}
+@media (max-width: 600px){
+    .container{
+        @apply flex flex-col h-[100vh];
+    }
+    .inputWrapper{
+        @apply w-[70%];
+    }
+    .contactDescription{
+        @apply w-[65%] mt-8;
+    }
+    .submitButton{
+        @apply w-[100%];
+    }
+}

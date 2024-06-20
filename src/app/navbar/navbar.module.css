@@ -1,0 +1,35 @@
+.navbarContainer {
+    @apply z-30 w-[100%] bg-gray-900 text-white justify-between flex py-1 pr-6 pl-8 fixed;
+}
+
+.header {
+    @apply lg:flex hidden relative ml-14 mr-5 justify-center items-center;
+}
+
+.toggleButton {
+    @apply lg:hidden cursor-pointer;
+}
+
+.navMenu {
+    @apply hover:text-black hover:bg-white px-2 text-xl font-bold;
+}
+
+.mWeb {
+    @apply  flex flex-col bg-gray-900 text-white z-30 mt-14 items-center justify-center lg:hidden p-7 pt-16 fixed w-[100%];
+}
+.mWebitem {
+    @apply p-2;
+}
+
+.heading {
+    @apply text-xl font-serif w-[10%];
+}
+
+.active {
+    @apply bg-white text-black
+}
+@media(max-width:640px){
+    .heading{
+        @apply w-[35%]
+    }
+}
