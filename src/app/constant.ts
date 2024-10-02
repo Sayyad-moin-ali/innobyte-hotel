@@ -14,7 +14,7 @@ export const menu = [
   }
 ]
 export const navbarHeading = {
-  heading: "KingSukh Guest House"
+  heading: "Dhamtari Guest House"
 }
 export const sliderData = [
   {
@@ -39,8 +39,8 @@ export const contactHeading = [
   {
 
     contact_paragraph: "We deals with good quality Rooms with good prices and privacy",
-    title: "Kingsukh Guest House",
-    conatct_Address: "Our Guest house  is located Beside Barshal Water Tank, Manpur, Barhanti, West Bengal 723156",
+    title: "Dhamtari Guest House",
+    conatct_Address: "Our Guest house  is located Beside Barshal Water Tank, Dhamtari, Barhanti, chhattishgarh 4937773",
     contact_email: "kkghosh0099@gmail.com",
     contact_phone: "+91 9007062180"
   }
@@ -50,20 +50,20 @@ export const aboutHeading=[
   {
       aboutHeading:"About us",
       aboutTitle:"The Best Holidays Start Here!",
-      aboutParagraph:"  Embark on a tranquil journey at our Kingsukh Guest House, enveloped by the scenic allure of Biharinath Hill, Baranti Hill, Susunia Hill, Joychandi Hill, Garhpanchkot, Baranti Dam, Maithon Dam, and the captivating Panchat Dam. Revel in the embrace of comfort, relish delightful meals, and unwind in our verdant garden oasis. Your ideal retreat beckons, promising a harmonious blend of nature's beauty and heartfelt hospitality. Explore the hidden gems of Purulia, creating memories that linger long after your stay.",
+      aboutParagraph:"  Embark on a tranquil journey at our Dhamtari Guest House, enveloped by the scenic allure of Biharinath Hill, Baranti Hill, Susunia Hill, Joychandi Hill, Garhpanchkot, Baranti Dam, Maithon Dam, and the captivating Panchat Dam. Revel in the embrace of comfort, relish delightful meals, and unwind in our verdant garden oasis. Your ideal retreat beckons, promising a harmonious blend of nature's beauty and heartfelt hospitality. Explore the hidden gems of Purulia, creating memories that linger long after your stay.",
       aboutProducts:"We deals with good quality Rooms with good prices and privacy.",
-      aboutAddressheading:"Kingsukh Guest House",
-      aboutAddress:"Our Guest house  is located Beside Barshal Water Tank, Manpur, Barhanti, West Bengal 723156",
+      aboutAddressheading:"Dhamtari Guest House",
+      aboutAddress:"Our Guest house  is located Beside Barshal Water Tank, Dhamtari, chhattishgarh 723156",
       
   }
 ]
 
 export const footerData={
     
-  heading:"Kingsukh Guest House",
+  heading:"Dhamtari Guest House",
   address:"Adderss -",
-  city:" Beside Barshal Water Tank, Manpur, Barhanti,",
-  state:" West Bengal 723156",
+  city:" Beside Barshal Water Tank,Dhamtari, chhattishgarh,",
+  state:" chhattishgarh 723156",
   contact:"Contact no - +91 9007062180",
   connect:"Connect with us"
 }
